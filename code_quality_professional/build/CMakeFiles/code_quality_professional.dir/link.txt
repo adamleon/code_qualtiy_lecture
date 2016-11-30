@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/code_quality_professional.dir/code_quality_professional.cpp.o  -o code_quality_professional -rdynamic 

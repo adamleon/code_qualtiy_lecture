@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCalculations.a  CMakeFiles/Calculations.dir/home/adamleon/code_quality/code_quality_godlike/src/calculations.o CMakeFiles/Calculations.dir/home/adamleon/code_quality/code_quality_godlike/src/exceptions.o
+/usr/bin/ranlib libCalculations.a

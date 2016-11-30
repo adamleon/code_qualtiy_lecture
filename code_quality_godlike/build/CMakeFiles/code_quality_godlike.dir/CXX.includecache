@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adamleon/code_quality/code_quality_godlike/code_quality_godlike.cpp
+iostream
+-
+include/calculations.hpp
+/home/adamleon/code_quality/code_quality_godlike/include/calculations.hpp
+
+/home/adamleon/code_quality/code_quality_godlike/include/calculations.hpp
+sstream
+-
+limits
+-
+../include/exceptions.hpp
+/home/adamleon/code_quality/code_quality_godlike/include/exceptions.hpp
+
+/home/adamleon/code_quality/code_quality_godlike/include/exceptions.hpp
+sstream
+-
+exception
+-
+

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classargument__invalid__exception.html" title="Exception invoked by invalid arguments. " alt="" coords="133,5,315,32"/>
+<area shape="rect" id="node3" href="$classnegative__number__exception.html" title="Exception invoked by negative numbers. " alt="" coords="132,56,316,83"/>
+<area shape="rect" id="node4" href="$classoverflow__exception.html" title="Exception invoked by integer overflow. " alt="" coords="157,107,291,133"/>
+</map>

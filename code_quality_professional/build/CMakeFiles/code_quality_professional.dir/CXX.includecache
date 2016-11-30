@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adamleon/code_quality/code_quality_professional/code_quality_professional.cpp
+iostream
+-
+sstream
+-
+assert.h
+-
+exception
+-
+limits
+-
+

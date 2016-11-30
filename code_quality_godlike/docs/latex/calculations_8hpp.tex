@@ -1,0 +1,95 @@
+\hypertarget{calculations_8hpp}{}\section{/home/adamleon/code\+\_\+quality/code\+\_\+quality\+\_\+godlike/include/calculations.hpp File Reference}
+\label{calculations_8hpp}\index{/home/adamleon/code\+\_\+quality/code\+\_\+quality\+\_\+godlike/include/calculations.\+hpp@{/home/adamleon/code\+\_\+quality/code\+\_\+quality\+\_\+godlike/include/calculations.\+hpp}}
+
+
+This file contains global functions for the Calculation library.  
+
+
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$limits$>$}\\*
+{\ttfamily \#include \char`\"{}../include/exceptions.\+hpp\char`\"{}}\\*
+Include dependency graph for calculations.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{calculations_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{calculations_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{calculations_8hpp_a4c4dff898dfea5c7f94b17847e9ade8a}{argument\+To\+Integer} (char $\ast$argument, int \&number)
+\begin{DoxyCompactList}\small\item\em Function converting a string to an integer. \end{DoxyCompactList}\item 
+int \hyperlink{calculations_8hpp_af9f70ede9e2b2d55a963d27cbdb8346b}{calculate} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Calculates a!+b. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains global functions for the Calculation library. 
+
+\begin{DoxyAuthor}{Author}
+Adam Leon Kleppe 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\hypertarget{calculations_8hpp_a4c4dff898dfea5c7f94b17847e9ade8a}{}\index{calculations.\+hpp@{calculations.\+hpp}!argument\+To\+Integer@{argument\+To\+Integer}}
+\index{argument\+To\+Integer@{argument\+To\+Integer}!calculations.\+hpp@{calculations.\+hpp}}
+\subsubsection[{argument\+To\+Integer}]{\setlength{\rightskip}{0pt plus 5cm}void argument\+To\+Integer (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{argument, }
+\item[{int \&}]{number}
+\end{DoxyParamCaption}
+)}\label{calculations_8hpp_a4c4dff898dfea5c7f94b17847e9ade8a}
+
+
+Function converting a string to an integer. 
+
+Converts a string opf any length to an integer if the string represents a valid integer. 
+\begin{DoxyExceptions}{Exceptions}
+{\em argument\+\_\+invalid\+\_\+execption} & if the argument is not a valid integer. \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyParams}{Parameters}
+{\em argument} & The argument which is supposed to converted. \\
+\hline
+{\em number} & The output number of the conversion \\
+\hline
+\end{DoxyParams}
+\hypertarget{calculations_8hpp_af9f70ede9e2b2d55a963d27cbdb8346b}{}\index{calculations.\+hpp@{calculations.\+hpp}!calculate@{calculate}}
+\index{calculate@{calculate}!calculations.\+hpp@{calculations.\+hpp}}
+\subsubsection[{calculate}]{\setlength{\rightskip}{0pt plus 5cm}int calculate (
+\begin{DoxyParamCaption}
+\item[{int}]{a, }
+\item[{int}]{b}
+\end{DoxyParamCaption}
+)}\label{calculations_8hpp_af9f70ede9e2b2d55a963d27cbdb8346b}
+
+
+Calculates a!+b. 
+
+Calculates the equation a! + b 
+\begin{DoxyExceptions}{Exceptions}
+{\em negative\+\_\+number\+\_\+execption} & if a is negative \\
+\hline
+{\em overflow\+\_\+execption} & if either a or the result is larger than I\+N\+T\+\_\+\+M\+A\+X \\
+\hline
+\end{DoxyExceptions}
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Integer which will be factorialized \\
+\hline
+{\em b} & Integer which will be added \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of the equation a!+b 
+\end{DoxyReturn}

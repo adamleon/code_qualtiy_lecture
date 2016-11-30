@@ -1,0 +1,2 @@
+/home/adamleon/code_quality/code_quality_godlike/build/CMakeFiles/Calculations.dir
+/home/adamleon/code_quality/code_quality_godlike/build/CMakeFiles/code_quality_godlike.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test_calculations.dir/test.o  -o test_calculations -rdynamic libCalculations.a -lboost_filesystem -lboost_system -lboost_unit_test_framework 
